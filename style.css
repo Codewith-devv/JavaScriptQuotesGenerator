@@ -1,0 +1,68 @@
+/* General Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url('images/library.jpg') no-repeat center center/ cover;
+}
+
+.container {
+    height: 450px;
+    width: 550px;
+}
+
+.heading {
+    font-size: 1.2rem;
+    border: 2px solid white;
+    color: #fff;
+    background-color: #262626;
+    border-radius: 5px;
+    width: 90%;
+    padding: 5px;
+    margin: 20px auto;
+
+}
+
+.main-content {
+    height: 300px;
+    width: 100%;
+    background-color: #fff;
+    padding: 50px 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px;
+}
+
+.main-content .text-area {
+    font-size: 1.5rem;
+    /* line-height: 1.5px; */
+    margin-bottom: 20px;
+}
+
+.main-content .said-by {
+    font-size: 1.6rem;
+    color: red;
+    text-transform: uppercase;
+}
+
+.button-area button {
+    background-color: #262626;
+    color: #fff;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+
+.botton-area button:active {
+    background-color: lightblue;
+}
